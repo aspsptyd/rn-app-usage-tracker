@@ -1,5 +1,5 @@
 import { Pressable, StyleSheet, Text, View } from 'react-native'
-import React from 'react'
+import React, { useState } from 'react'
 import {
   EventFrequency,
   checkForPermission,
@@ -8,6 +8,8 @@ import {
 } from '@brighthustle/react-native-usage-stats-manager';
 
 const App = () => {
+
+  const [dataApps, setDataApp] = useState();
 
   const startDateString = '2024-03-17T06:00:00';
   const endDateString = '2024-03-18T06:00:00';
@@ -23,6 +25,7 @@ const App = () => {
     )
 
     console.log(JSON.stringify(result, null, ' '))
+    setDataApp(JSON.stringify(result, null, ' '))
   }
 
     return (
@@ -44,18 +47,24 @@ const App = () => {
         >
           <View
             style={{ 
-              backgroundColor: 'black'
+              backgroundColor: 'blue',
+              borderRadius: 5
             }}
           >
             <Text
               style={{ 
                 color: 'white',
                 textAlign: 'center',
-                margin: 5,
+                margin: 7,
               }}
-            >Coba Cek data Disini</Text>
+            >Fetch Data Log Apps</Text>
           </View>
         </Pressable>
+
+
+        <Text>
+              {dataApps}
+            </Text>
       </View>
     )
 }
