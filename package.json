@@ -11,8 +11,10 @@
   },
   "dependencies": {
     "@brighthustle/react-native-usage-stats-manager": "^0.1.5",
+    "moment": "^2.30.1",
     "react": "18.2.0",
-    "react-native": "0.73.6"
+    "react-native": "0.73.6",
+    "react-native-app-usage-monitor": "^1.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
