@@ -38,3 +38,7 @@ Berikut contoh data yang sudah berhasil diambil dari usage penggunaan activity p
 ```
 
 Dan berikut tampilannya
+
+<img src="https://github.com/aspsptyd/rn-app-usage-tracker/assets/98740335/fe442858-552f-4e3b-a4b1-5e582bce8521" width="300"/>
+
+Copyright &copy; 2024 Asep Septiadi. All right reserved. Powered by <a href="https://www.npmjs.com/package/@brighthustle/react-native-usage-stats-manager">`react-native-usage-stats-manager`</a>
