@@ -1,6 +1,40 @@
-# App Usage Tracker with React Native Project
-Log data penggunaan user terhadap aplikasi-aplikasi pada sistem khususnya di Android
+# App Usage Tracker v1.0-beta
+Log Aplikasi masih baru di Android, untuk iOS masih on ReSearch
 
-## Journal App Usage Tracker
+## Log Data Usage Activity
+Berikut contoh data yang sudah berhasil diambil dari usage penggunaan activity pada Ponsel Android
 
-- 18 Maret 2024: https://mobile-engineer-goodeva.notion.site/Journal-App-Usage-Tracker-in-React-Native-4bfb7e79c79d49f1b0cd88e6d71de1c5 => Fetch data to log for show it
+```.sh
+ LOG  {
+ "com.google.android.gms": {
+  "appName": "Layanan Google Play",
+  "packageName": "com.google.android.gms",
+  "lastTimeUsed": 1715759957978,
+  "firstTimeStamp": 1715678603628,
+  "isSystem": false,
+  "totalTimeInForeground": 21,
+  "lastTimeStamp": 1715765003627
+ },
+ "com.burockgames.timeclocker": {
+  "appName": "com.burockgames.timeclocker",
+  "packageName": "com.burockgames.timeclocker",
+  "lastTimeUsed": 1715761629904,
+  "firstTimeStamp": 1715678603628,
+  "isSystem": false,
+  "totalTimeInForeground": 104,
+  "lastTimeStamp": 1715765003627
+ },
+ "com.android.deskclock": {
+  "appName": "Jam",
+  "packageName": "com.android.deskclock",
+  "lastTimeUsed": 1715630340415,
+  "firstTimeStamp": 1715592200825,
+  "isSystem": false,
+  "totalTimeInForeground": 179,
+  "lastTimeStamp": 1715678600824
+ },
+. . . .
+// And more data
+```
+
+Dan berikut tampilannya
