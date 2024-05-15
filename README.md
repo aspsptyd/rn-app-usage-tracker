@@ -48,4 +48,5 @@ Dan berikut tampilannya
 
 <img src="https://github.com/aspsptyd/rn-app-usage-tracker/assets/98740335/0cf57191-35ef-4d8d-af8f-4b1a248a2886" width="300"/>
 <br /><br />
+
 Copyright &copy; 2024 Asep Septiadi. All right reserved. Powered by <a href="https://www.npmjs.com/package/@brighthustle/react-native-usage-stats-manager">`react-native-usage-stats-manager`</a>
